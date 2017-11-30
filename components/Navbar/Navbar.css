@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    box-sizing: border-box;
+    background-color:lightslategray;
+    height : 50px;
+}
+.navbar__tab {
+    font-family: sans-serif;
+    font-size: 20px;
+}

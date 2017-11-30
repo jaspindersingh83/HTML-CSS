@@ -1,0 +1,11 @@
+@import "./components/Navbar/Navbar.css";
+@import "./components/Section/Section.css";
+
+body {
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
