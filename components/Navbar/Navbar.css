@@ -1,15 +1,13 @@
-.navbar {
+.Navbar {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
     box-sizing: border-box;
-    background-color:lightslategray;
     height : 50px;
+    border-bottom: 1px solid #505050;
 }
-.navbar__tab {
-    font-family: sans-serif;
+.Navbar__tab {
     font-size: 20px;
 }
