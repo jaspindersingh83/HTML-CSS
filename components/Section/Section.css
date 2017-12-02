@@ -6,25 +6,27 @@
     box-sizing: border-box;
     font-size: 18px;
     border-bottom: 1px solid #505050;
+    height:240px;
 }
 .Section__header{
     height: 40px;
     padding: 10px;
-
 }
 .Section__body{
     height: 200px;
     padding: 10px;
 }
-.Section--top{
-    height: 150px;    
+.Section__topimage{
+    height: 100%; 
+    width : 100%; 
+    opacity: 0.6;  
 }
-
+/* 
 @media (min-width: 600px) {
-    .Section--top{
-        height: 300px;    
+    .Section__topimage{
+        height: 100%;    
     }
-  }
+  } */
 
 .Section__body__imageholder{
     align-items: center;
@@ -36,11 +38,7 @@
     width: 150px;
     opacity: 0.9;
 }
-.Section--top__img{
-    height: 100%;
-    width: 100%;
-    opacity: 0.6;
-}
+
 
 .Section__textbox{
     font-size: 13px;
