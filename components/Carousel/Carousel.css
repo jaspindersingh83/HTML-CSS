@@ -1,0 +1,45 @@
+.Carousel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100%;
+    width:100%;
+    margin: auto;
+}
+
+.Carousel__items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100%;
+    width:90%;
+    margin: auto;
+}
+.Carousel__arrow--right{
+    font-size: 42px;
+    text-align: center;
+    width: 5%;
+}
+
+.Carousel__arrow--left{
+    font-size: 42px;
+    text-align: center;
+    width: 5%;
+    content: "\e079";
+}
+
+.Carousel__item {
+    display: none;
+}
+.Carousel__itemimage{
+    height: 100%; 
+}
+  
+.Carousel__item--focused {
+    display: inline-block;
+    height: 90%;
+}

@@ -1,73 +1,124 @@
 <!doctype html>
+
 <head>
     <title>Jaspinder Singh - Software Engineer</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <div class="page"> 
-        <div class="Header">
-            <a href="">
-                <h1>Jaspinder Singh</h1>
-            </a> 
-            <div class="Header Header__social" >
-                <a href= "https://www.linkedin.com/in/jaspindersingh1/" title="linkedIn">
-                    <img class="Header__social__img" src="./images/socialIcons/linkedin.png">
+    <script defer="defer" src="./components/Carousel/Carousel.js"></script>
+    <div class="page">
+        <div class="HeaderFooterCommonDisplay Header">
+            <div class="HeaderFooterCommonDisplay Header__top">
+                <a href="">
+                    <h1 >Jaspinder Singh</h1>
                 </a>
-                <a href= "https://twitter.com/jaspindersingh8" title="Twitter">
-                    <img class="Header__social__img" src="./images/socialIcons/twitter.png">
-                </a>
-                <a href= "https://medium.com/@jaspindersingh8" title="Medium">
-                    <img class="Header__social__img" src="./images/socialIcons/medium.png">
-                </a>
-                <a href= "https://github.com/jaspindersingh83" title="Github">
-                    <img class="Header__social__img" src="./images/socialIcons/github.png">
+                <div class="HeaderFooterCommonDisplay Header__top__social">
+                    <a href="https://www.linkedin.com/in/jaspindersingh1/" title="linkedIn">
+                        <img class="Header__social__img" src="./images/socialIcons/linkedin.png">
+                    </a>
+                    <a href="https://twitter.com/jaspindersingh8" title="Twitter">
+                        <img class="Header__social__img" src="./images/socialIcons/twitter.png">
+                    </a>
+                    <a href="https://medium.com/@jaspindersingh8" title="Medium">
+                        <img class="Header__social__img" src="./images/socialIcons/medium.png">
+                    </a>
+                    <a href="https://github.com/jaspindersingh83" title="Github">
+                        <img class="Header__social__img" src="./images/socialIcons/github.png">
+                    </a>
+                </div>
+            </div>
+            <div class="HeaderFooterCommonDisplay Header__tagline">
+                <a href="">
+                    <p>Software Engineer, Full Stack : San Francisco</p>
                 </a>
             </div>
         </div>
-        <div class="Header Header__tagline">
-            <a href="">
-                <p>Software Engineer, Full Stack : San Francisco</p>
-            </a>
-        </div>  
-            <div class="Navbar">
-                <div class="Navbar__tab"><a href="#aboutme">About Me</a></div>
-                <div class="Navbar__tab"><a href="#projects">Projects</a></div>
-                <div class="Navbar__tab"><a href="./images/Resume.pdf">Resume</a></div>
-                <div class="Navbar__tab"><a href="#skills">Skills</a></div>
-                <div class="Navbar__tab"><a href="#footer">Contact Me</a></div>
+        <div class="Navbar">
+            <div class="Navbar__tab">
+                <a href="#projects">Projects</a>
             </div>
-            <div class="Section">
-                <img  class="Section__topimage" src="./images/PaperEnigmaAssembled.jpg">  
+            <div class="Navbar__tab">
+                <a href="./images/Resume.pdf">Resume</a>
             </div>
-            <div class="Section Section__header" id= "aboutme">About Me</div>
-            <div class="Section Section__body ">
-                <div class="Section Section__body__imageholder">
-                    <img class="Section__body__img" src="./images/profile_pic.jpg">
-                </div>
-                <div class="Section Section__textbox">
-                    <p style="margin:0px"><strong style="font-size:16px;">W</strong>elcome, my name is Jaspinder and above is the image of 
-                    <a style ="color:#77a6ee;" href="https://github.com/jaspindersingh83/Enigma-Problem"> 'Enigma Decipher'</a>
-                    This was the first coding challenge that I took.
-                    I was exposed to coding while heading operations of a startup. I started small 
-                    by quickly hacking together small projects to make my and my team's life easy.
-                    Slowly, I found myself coding majority of my time, hanging around and getting mentored from 
-                   my younger friends from tech team.</p> 
-                    <p style="margin-top: 5px; margin-bottom: 5px;"> Currently, I am a full time computer science student at Lambda School and transitioning  
+            <div class="Navbar__tab">
+                <a href="#skills">Skills</a>
+            </div>
+            <div class="Navbar__tab">
+                <a href="#footer">Contact Me</a>
+            </div>
+        </div>
+        <div class="Section">
+            <div class="Section__header">About Me</div>
+            <div class="Section__body ">
+                <img class="Section__bodyimg" src="./images/profile_pic.jpg">
+                <div class="Section__textbox">
+                    <p style="margin:0px"><strong style="font-size:16px;">W</strong>elcome, my name is Jaspinder. I fell in love with computer programming when I took my first coding challenge,
+                        <a style ="color:#77a6ee;" href="https://github.com/jaspindersingh83/Enigma-Problem"> 'Enigma Decipher'</a>.
+                        I was exposed to coding while heading operations of a startup. I started small 
+                        by quickly hacking together small projects to make my and my team's life easy.
+                        Slowly, I found myself coding majority of my time, hanging around and getting mentored from 
+                        my younger friends from tech team.
+                    </p> 
+                    <p style="margin-top: 5px; margin-bottom: 5px;">
+                        Currently, I am a full time computer science student at Lambda School and transitioning  
                         from a coder to software engineer.
                     </p>  
                     <p style="margin:0px">  
-                    My friends describe me as an easy going guy
-                    who prefers to listen and  provides honest feedback when asked.
-                    When I am not writing softwares, I write blogs about scaling an awesome culture in a startup and the lessons that I learnt from my failures.
-                    my failures. I am lucky that two of my blogs got featured in iamwire (India's techcrunch) and <a style ="color:#77a6ee;" href="http://www.iamwire.com/2016/07/power-of-saying-no-in-a-startup-5-lessons-i-learned-from-a-failed-startup/139784">'Just say No'</a> trended for a week on iamwire.       
+                        My friends describe me as an easy going guy
+                        who prefers to listen and  provides honest feedback when asked.
+                        When I am not writing softwares, I write blogs about scaling an awesome culture in a startup and the lessons that I learnt from my failures.
+                        my failures. I am lucky that two of my blogs got featured in iamwire (India's techcrunch) and <a style ="color:#77a6ee;" href="http://www.iamwire.com/2016/07/power-of-saying-no-in-a-startup-5-lessons-i-learned-from-a-failed-startup/139784">'Just say No'</a> trended for a week on iamwire.       
                     </p>
                 </div>
             </div>
-            <div class="Section Section__header" id = "projects">Projects</div>
-            <div class="Section Section__body"></div>
-            <div class="Section Section__header" id= "skills">Skills</div>
-            <div class="Section Section__body"></div>
-            <div class= "Footer Footer--contact" id="footer">
+        </div>
+        <div class="Section">
+            <div class="Section__header" id="projects">Projects</div>
+            <div class="Section__body">
+                <div class="Carousel">
+                    <div class="Carousel__arrow--left"> <
+                    </div>
+                    <div class="Carousel__items">
+                        <div class="Carousel__item Carousel__item--focused">
+                            <img class="Carousel__itemimage" src="./images/CarouselImages/Project1.jpeg">
+                        </div>
+                        <div class="Carousel__item Carousel__item--focused">
+                            <img class="Carousel__itemimage" src="./images/CarouselImages/Project2.jpg">  
+                        </div>
+                        <div class="Carousel__item Carousel__item--focused">
+                            <img class="Carousel__itemimage" src="./images/CarouselImages/Project3.png">
+                        </div>
+                        <div class="Carousel__item">
+                            <img class="Carousel__itemimage" src="./images/CarouselImages/Project4.jpeg">
+                        </div>
+                        <div class="Carousel__item">
+                            <img src="./images/CarouselImages/Project5.jpeg">
+                        </div>
+                        <div class="Carousel__item">
+                            <img class="Carousel__itemimage" src="./images/CarouselImages/Project6.jpeg">
+                        </div>
+                        <div class="Carousel__item">
+                            <img class="Carousel__itemimage" src="./images/CarouselImages/Project7.jpeg">
+                        </div>
+                        <div class="Carousel__item">
+                            <img class="Carousel__itemimage" src="./images/CarouselImages/Project8.jpeg">
+                        </div>
+                        <div class="Carousel__item">
+                            <img class="Carousel__itemimage" src="./images/CarouselImages/Project9.jpeg">
+                        </div>
+                    </div>
+                    <div class="Carousel__arrow--right"> >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Section">
+            <div class="Section__header" id="skills">Skills</div>
+            <div class="Section__body"></div>
+        </div>
+        <div class="HeaderFooterCommonDisplay Footer">
+            <div class="HeaderFooterCommonDisplay Footer__contact" id="footer">
                 Contact
                 <div class="Footer--text">
                     Email : jaspindersingh83@gmail.com
@@ -76,9 +127,9 @@
                     Phone : 415-926-1655
                 </div>
             </div>
-            <div class="Footer Footer__tagline Footer__tagline--copyright">
+            <div class="HeaderFooterCommonDisplay Footer__tagline">
                 @Copyright 2017 Jaspinder Singh. All RIghts Reserved
             </div>
         </div>
-    </div> 
+    </div>
 </body>

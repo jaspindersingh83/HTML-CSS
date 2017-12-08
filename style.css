@@ -1,12 +1,13 @@
 @import "./components/Navbar/Navbar.css";
 @import "./components/Section/Section.css";
 @import "./components/Header_Footer/Header_Footer.css";
+@import "./components/Carousel/Carousel.css";
 
 body {
     margin: 0px;
     color: #505050;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-image: url(images/Espresso.jpg);
+    background-image: url(images/Expresso.jpg);
 }
 a {
     text-decoration: none;
